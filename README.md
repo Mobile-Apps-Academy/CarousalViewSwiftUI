@@ -92,13 +92,12 @@ A Carousal view, Developed using SwiftUI.
 
 ```swift
  CarouselView(views: [childviews])
-}
 ```
 
 2. How to create the child view view
 
 ```swift
-            (CarouselChildView(id: i) {
+(CarouselChildView(id: i) {
                 ZStack {
                     Image("\(i)")
                         .resizable()
@@ -110,7 +109,7 @@ A Carousal view, Developed using SwiftUI.
                 }
                 .frame(width: 250, height: 400)
                 .shadow(radius: 10)
-            } 
+} 
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
